@@ -1,0 +1,26 @@
+{
+  "name": "cloud-devsecops-pipeline",
+  "version": "1.0.0",
+  "description": "Automated DevSecOps pipeline orchestrating Gitleaks, Trivy, Semgrep, Checkov, and OWASP ZAP in GitHub Actions",
+  "type": "module",
+  "author": "Abdullah Formuli <authrainmedia@gmail.com> (https://github.com/authrain-cloud-abdullahformuli)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/authrain-cloud-abdullahformuli/cloud-devsecops-pipeline.git"
+  },
+  "homepage": "https://github.com/authrain-cloud-abdullahformuli/cloud-devsecops-pipeline#readme",
+  "scripts": {
+    "test": "node test.mjs"
+  },
+  "keywords": [
+    "devsecops",
+    "security-pipeline",
+    "github-actions",
+    "trivy",
+    "gitleaks",
+    "semgrep",
+    "checkov",
+    "owasp-zap"
+  ]
+}

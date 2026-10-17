@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: "If you use Cloud DevSecOps Security Pipeline, please cite it using these metadata."
+title: "Cloud DevSecOps Pipeline: Automated Security Controls Across the SDLC"
+type: software
+authors:
+  - family-names: "Formuli"
+    given-names: "Abdullah"
+    email: "authrainmedia@gmail.com"
+    website: "https://github.com/authrain-cloud-abdullahformuli"
+url: "https://github.com/authrain-cloud-abdullahformuli/cloud-devsecops-pipeline"
+repository-code: "https://github.com/authrain-cloud-abdullahformuli/cloud-devsecops-pipeline"
+license: MIT
+keywords:
+  - devsecops
+  - security
+  - github-actions
+  - trivy
+  - gitleaks
+  - semgrep
+  - checkov
+  - owasp-zap
+  - docker
+  - terraform

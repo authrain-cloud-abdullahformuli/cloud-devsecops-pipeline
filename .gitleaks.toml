@@ -1,0 +1,19 @@
+# Custom Gitleaks configuration
+# Purpose:
+# Detect generic API keys, secrets, and token-like values committed into source control.
+#
+# Regex inspiration/reference:
+# https://github.com/gitleaks/gitleaks
+# https://regex101.com/
+#
+# Pattern logic:
+# Looks for terms like api, key, token, or secret
+# followed by assignment characters and long alphanumeric values.
+
+title = "Custom Gitleaks Config"
+
+[[rules]]
+id = "generic-api-key"
+description = "Generic API Key Detection"
+regex = '''(?i)(api|key|token|secret)[\s:=]+[A-Za-z0-9_\-]{10,}'''
+tags = ["key", "API", "token"]
